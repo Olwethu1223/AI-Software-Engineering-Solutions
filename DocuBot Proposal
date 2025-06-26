@@ -1,0 +1,53 @@
+Title: DocuBot – AI-Powered Code Documentation Generator
+Category: Innovation in Software Engineering
+Purpose: An AI tool that automatically generates technical documentation from codebases.
+
+Overview:
+DocuBot is an AI-powered tool designed to automatically generate clean, human-readable technical documentation directly from code repositories. It supports languages like Python, JavaScript, and Java, and integrates with platforms like GitHub and GitLab.
+
+Problem Statement:
+Developers often skip writing or updating documentation, resulting in poorly maintained projects, onboarding difficulties, and wasted time. DocuBot solves this by automating the documentation process.
+
+How It Works (Workflow):
+
+DocuBot scans the source code using static analysis.
+
+It uses NLP (like GPT-4 or open-source models) to interpret code logic.
+
+It generates:
+
+Function/class descriptions
+
+API documentation
+
+Setup instructions (if environment files exist)
+
+The output is saved as Markdown or HTML documentation.
+
+Developers can review/edit the AI’s draft if needed.
+
+Expected Impact:
+
+Saves developer time by automating documentation
+
+Improves code readability and maintainability
+
+Enhances onboarding for new team members
+
+Boosts project professionalism
+
+Tools Involved:
+
+Python, OpenAI API / CodeBERT
+
+GitHub API for repo access
+
+Streamlit or Flask for interface
+
+Conclusion:
+DocuBot bridges the gap between rapid development and reliable documentation. It ensures that knowledge is preserved and shared effectively across teams.
+
+Connection to Main Project:
+This proposal complements our core assignment theme, “Building Intelligent Software Solutions”, by addressing a common pain point in software engineering — documentation. While our practical tasks focused on AI for code generation, testing, and prediction, DocuBot aims to support the same lifecycle by automating technical documentation, a task that is often neglected but critical for software quality, onboarding, and collaboration. It fits within the broader goal of using AI to enhance productivity, reduce human error, and build smarter development pipelines.
+
+
