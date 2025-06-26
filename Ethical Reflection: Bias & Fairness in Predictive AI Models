@@ -1,0 +1,9 @@
+Ethical Reflection: Bias & Fairness in Predictive AI Models
+When deploying a predictive AI model like the one used in Task 3, it’s essential to consider the ethical implications—particularly regarding bias in the dataset and its impact on real-world decisions. Our model was trained on the Breast Cancer Wisconsin Diagnostic Dataset, which, while clean and well-structured, may not represent all demographic groups equally (e.g., age, ethnicity, or socioeconomic background of patients).
+
+If this model were used in a company to prioritize tasks or allocate resources, such biases could lead to unfair outcomes—such as consistently de-prioritizing cases associated with underrepresented groups. This reflects a broader issue in AI where historical or systemic imbalances in data can result in models that reinforce inequality rather than reduce it.
+
+To mitigate such risks, we can use fairness auditing tools like IBM’s AI Fairness 360, which helps detect and reduce unwanted bias in datasets and model predictions. Techniques such as reweighting, disparate impact removal, or adversarial debiasing can improve model fairness and inclusivity.
+
+Ultimately, ethical AI isn't just about accuracy; it’s about responsibility. Developers must remain aware that every dataset carries real-world implications—and build systems that serve all users equitably.
+
